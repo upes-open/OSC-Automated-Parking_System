@@ -19,7 +19,7 @@ Here's a brief intro about what a contributor must do in order to start developi
 1. Open VSCode 
 2. Copy the given command
 ```shell
-git clone 
+git clone https://github.com/upes-open/OSC-Automated-Parking_System.git
 ```
 3. Go to folder according to the issue you are working and save your work
 ```shell
