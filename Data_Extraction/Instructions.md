@@ -1,0 +1,2 @@
+This is for collecting Data. Now Remember the most valuable thing to a ML based application is collection of Data. 
+Now the Data is already collected for yo to start working on it. Feel free to use it and start working on it.
