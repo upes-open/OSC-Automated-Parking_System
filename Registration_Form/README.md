@@ -11,4 +11,4 @@
 
 ### In This Project
 
-With SQLAlchemy, data logging and data retrieval to the database and users can register their vehicles and Login with their License Numbers and then be assigned the Parking Spots Automaticallys.
+With SQLAlchemy, data logging and data retrieval to the database and users can register their vehicles and Login with their License Numbers and then be assigned the Parking Spots automatically.
