@@ -17,14 +17,19 @@ def contour(gimage): # detect contour
     contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     image = cv2.drawContours(gimage, contours, -1, (0, 255, 0), 2)
     return image
-i = 0
 
+def histeq(img): #Histogram equalization
+    equ = cv2.equalizeHist(img)
+    return equ
+
+i = 0
 for img in glob.glob("Data_Extraction/Images/*.jpg"): #loading images from folder
     cv_img = cv2.imread(img)  #reading the image
     image = sharpen(cv_img) #sharpen the image
     gimage = grey(image) #grayscaling the image
-    image = contour(gimage)
-    cv2.imwrite(f"Data_Extraction/processed_images/{i}.jpg", image) #saving it 
+    himage = histeq(gimage) #histogram equalizing the image
+    image = contour(himage)
+    cv2.imwrite(f"Data_Extraction/processed_images/{i}.jpg", himage) #saving it 
     i = i + 1
     
     
