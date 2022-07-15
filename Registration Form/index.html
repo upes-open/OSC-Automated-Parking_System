@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<fieldset>
+		<legend>Registration Form</legend>
+		<form method="post" >
+			<!-- {{ form.csrf_token}}
+			{{ form.Name.label}}
+			{{ form.Name }}
+			{{ form.Number }} -->
+			<table>
+				<tr>
+					<td>
+						Name : 
+					</td>
+					<td>
+						<input type="text" placeholder="Name" name="Name" required >
+					</td>
+				</tr>
+				<tr>
+					<td>
+						License Plate Number :
+					</td>
+					<td>
+						<input type="text" placeholder = "Number" name="Number" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="Submit"  value="Submit">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+	</body>
+</html>
+<!-- <!doctype html>
+<html>
+	<head>
+		<title>hiiiii</title>
+	</head>
+	<body>
+		<h1>Does this work??</h1>
+	</body>
+</html> -->
