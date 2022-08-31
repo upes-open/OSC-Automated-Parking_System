@@ -1,0 +1,1 @@
+This directory is for the Number Plate Recognition Model that will use the camera to read the number plate from the vehicle. And then register that into the databse alloting a parking slot automatically.

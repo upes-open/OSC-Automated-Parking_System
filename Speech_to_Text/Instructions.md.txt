@@ -1,0 +1,1 @@
+This will be the place for all the speech to text conversions for the person to speak the name of the Faculty and the License Plate and then it gets registered into the database and assigned a slot for parking the vehicle.
