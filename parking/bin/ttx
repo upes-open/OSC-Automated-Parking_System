@@ -1,4 +1,4 @@
-#!/Users/macbookair/Desktop/parking/my/OSC-Automated-Parking_System/parking/bin/python3.10
+#!/Users/macbookair/Desktop/parking/my/OSC-Automated-Parking_System/parking/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
